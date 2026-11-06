@@ -43,12 +43,7 @@
     "qs": "^6.17.1",
     "tough-cookie": "^4.1.4",
     "minimist": "^1.2.8",
-    "mkdirp@<0.5.6": "^0.5.6",
     "growl": "^1.10.5",
-    "debug@<2.6.9": "^2.6.9",
-    "diff@<3.5.1": "^3.5.1",
-    "minimatch@<3.1.4": "^3.1.4",
-    "glob@<7": "^7.2.3",
     "decode-uri-component": "^0.2.2",
     "fast-json-patch": "^3.1.1",
     "json-bigint": "^1.0.0",
@@ -56,7 +51,6 @@
     "date-and-time": "^0.14.2",
     "xml2js": "^0.6.2",
     "shelljs": "^0.8.5",
-    "ms@<2.0.0": "^2.0.0",
     "msgpack5": "^6.1.0",
     "deepmerge": "^4.3.1",
     "request": {
@@ -72,6 +66,15 @@
     },
     "nodemon": {
       "minimatch": "^11.0.5"
+    },
+    "liboneandone": {
+      "mocha": {
+        "debug": "^2.6.9",
+        "diff": "^3.5.1",
+        "mkdirp": "^0.5.6",
+        "glob": "^7.2.3",
+        "minimatch": "^3.1.4"
+      }
     }
   }
 }
