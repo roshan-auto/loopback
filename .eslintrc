@@ -1,3 +1,6 @@
 {
-  "extends": "loopback"
+  "extends": "loopback",
+  "rules": {
+    "max-len": ["error", 120, {"ignoreComments": true}]
+  }
 }
